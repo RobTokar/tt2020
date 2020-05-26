@@ -13,7 +13,7 @@
     <div class="page_container">
     
         <!--TT COLLAPSIBLE NAV BAR - NAV elements go inline with TT logo, collapse into hamburger icon-->
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -27,14 +27,23 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar" role="navigation">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="about_us.html">ABOUT US</a></li>
                         <li><a href="projects.html">ORIGINAL VIDEOS</a></li>
-                        <li><a href="portfolio.html">PORTFOLIO</a></li>
+                        <li class="active" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIOS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="portfolio-webdesign.html">Coding/Web Design</a></li>
+                                <li><a href="portfolio-animation.html">Animation</a></li>
+                                <li><a href="portfolio-design-illustration.html">Design/Illustration</a></li>
+                                <li><a href="portfolio-editorial.html">Editorial</a></li>
+                                <li><a href="portfolio-writing.html">Writing</a></li>
+                            </ul>
+                        </li>
                         <li><a href="contact_us.html">CONTACT US</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> SHOW SOME LOVE</a></li>
+                        <li><a href="http://patreon.com/tokartoons" target="_blank"><span class="glyphicon glyphicon-heart"></span> SHOW SOME LOVE</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,29 +60,30 @@
                         <div class="caption">
                             <h3>Imagestreams.com</h3>
                             <p>This client specifically asked for a WordPress site so they could easily make tweaks on their own and only come to me if they wanted a larger update or had questions. As with many clients, I set them up with hosting, email, vimeo and youtube accounts and gave them in-person tutorials on logging in and making updates.<br>Check them out at <a href="http://imagestreams.com" target="_blank">imagestreams.com</a></p>
-                            <p><a href="http://imagestreams.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a> 
+                            <p><a href="http://imagestreams.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a> 
                         </div>
                     </div>
                 </div>
         
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="static/images/portfolio/web/ImagestreamsHomePage-1261pxW.jpg" alt="Imagestreams.com home page">
+                        <img src="static/images/portfolio/web/DavidBHymanHomePage-1261pxW.jpg" alt="DavidBHyman.com home page">
                         <div class="caption">
                             <h3>DavidBHyman.com</h3>
                             <p>A costume designer's portfolio site with a very specific design directive / aesthetic. The client was pleased that I was able to make his vision for his site a working reality. It was the client's first website and he has told me that it has helped him build his career.<br>This is an HTML site that I am currently re-creating from scratch as a database-driven responsive site.</p>
-                            <p><a href="http://davidbhyman.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a>
+                            <p><a href="http://davidbhyman.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
                         </div>
                     </div>
                 </div>
         
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="static/images/portfolio/web/ImagestreamsHomePage-1261pxW.jpg" alt="Imagestreams.com home page">
+                        <img src="static/images/portfolio/web/ChrissyIleyHomePage-1261pxW.jpg" alt="ChrissyIley.com home page">
                         <div class="caption">
-                            <h3>AlexZamm.com</h3>
-                            <p>Wordpress site for writer / director Alex Zamm. Client asked for Wordpress so he could make edits himself and I assisted with setting up email and social video accounts. </p>
-                            <p><a href="http://alexzamm.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a>
+                            <h3>ChrissyIley.com</h3>
+                            <p>WordPress site for award-winning writer / journalist Chrissy Iley. I make regular updates as new interviews
+                                are published. </p>
+                            <p><a href="http://chrissyiley.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
                         </div>
                     </div>
                 </div>
@@ -82,36 +92,49 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="static/images/portfolio/web/ImagestreamsHomePage-1261pxW.jpg" alt="ChrissyIley.com home page">
+                        <img src="static/images/portfolio/web/AtlasMerchHomePage-1261pxW.jpg" alt="AtlasMerchandise.com home page">
                         <div class="caption">
-                            <h3>ChrissyIley.com</h3>
-                            <p>Wordpress site for award-winning writer / journalist Chrissy Iley. I make regular updates as new interviews are published. </p>
-                            <p><a href="http://chrissyiley.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a>
+                            <h3>AtlasMerchandise.com</h3>
+                            <p>WordPress site for promotional products company. Started as an HTML site but transitioned to WordPress at the client's request. I set up the site and emails and wrote all of the copy.</p>
+                            <p><a href="http://atlasmerchandise.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="static/images/portfolio/web/ImagestreamsHomePage-1261pxW.jpg" alt="AtlasMerchandise.com home page">
+                        <img src="static/images/portfolio/web/AlexZammHomePage-972pxW.jpg" alt="AlexZamm.com home page">
                         <div class="caption">
-                            <h3>AtlasMerchandise.com</h3>
-                            <p>Wordpress site for promotional products company. Started as an HTML site but transitioned to Wordpress at the client's request. I set up the site and emails and wrote all of the copy.</p>
-                            <p><a href="http://atlasmerchandise.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a>
+                            <h3>AlexZamm.com</h3>
+                            <p>WordPress site for writer / director Alex Zamm. Client asked for WordPress so he could make edits himself
+                                and I assisted with setting up email and social video accounts. </p>
+                            <p><a href="http://alexzamm.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="static/images/portfolio/web/WaldrumSpecsHomePage-1261pxW.jpg" alt="WaldrumSpecialties.com home page">
+                        <div class="caption">
+                            <h3>WaldrumSpecialties.com</h3>
+                            <p>This is an ancient site I created back in the late 90's and then updated the logo and mailing address in the early 2000s. I  was surprised to find it's still active and that they haven't changed a thing in over 20 years. I guess that means they really like it! ;-)</p>
+                            <p><a href="http://waldrumspecialties.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!--<div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <img src="static/images/portfolio/web/ImagestreamsHomePage-1261pxW.jpg" alt="DeniseWingate.com home page">
                         <div class="caption">
                             <h3>DeniseWingate.com</h3>
-                            <p>Wordpress site for costume designer Denise Wingate. Client asked for a very basic Wordpress site so she could make edits herself and I assisted with setting up email and social video accounts.</p>
-                            <p><a href="http://alexzamm.com" target="_blank" class="btn btn-primary" role="button">VIEW SITE</a>
+                            <p>WordPress site for costume designer Denise Wingate. Client asked for a very basic WordPress site so she could make edits herself and I assisted with setting up email and social video accounts.</p>
+                            <p><a href="http://alexzamm.com" target="_blank" class="btn btn-warning" role="button">VIEW SITE</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
